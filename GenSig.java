@@ -41,8 +41,9 @@ class GenSig {
 
         if (args.length != 1) {
             System.out.println("Usage: GenSig nameOfFileToSign");
-            }
-        else try{
+        }
+        else 
+            try {
 
             /* Generate a key pair */
 
