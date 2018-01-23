@@ -39,7 +39,7 @@ class GenSig {
 
         /* Generate a DSA signature */
 
-        if (args.length != 1) {
+        if (args.length != 1)   {
             System.out.println("Usage: GenSig nameOfFileToSign");
         }
         else 
